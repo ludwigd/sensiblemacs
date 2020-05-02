@@ -2,7 +2,7 @@
 (setq inhibit-startup-screen t)
 
 ;; Make emcas shut up
-(setq ring-bell-functioin 'ignore)
+(setq ring-bell-function 'ignore)
 
 ;; Make the titlebar display exactly the current buffer's name
 (setq frame-title-format "%b")
