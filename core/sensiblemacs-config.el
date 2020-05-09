@@ -15,7 +15,7 @@
 (setq-default default-tab-width 4)
 
 ;; Use spaces to indent
-(setq-default indent-tab-mode nil)
+(setq-default indent-tabs-mode nil)
 
 ;; Disable the scroll bars
 (scroll-bar-mode -1)
