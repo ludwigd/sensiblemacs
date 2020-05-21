@@ -10,6 +10,8 @@
     (load-file user-settings)))
 
 
+(sensiblemacs-apply-config)
+
 ;; Emacs will add code below this line. Do not touch it!
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

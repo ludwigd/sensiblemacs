@@ -19,11 +19,11 @@
 ;; Open line above, like `O` in vi normal mode
 (global-set-key (kbd "C-S-o") 'insert-line-above)
 
-;; Access helm on M-x
-(global-set-key (kbd "M-x") 'helm-M-x)
-
-;; Use helm for finding files
-(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(defun sensiblemacs-enable-helm-keybindings ()
+  "Set some keybindings for helm"
+  (interactive "p")
+  (global-set-key (kbd "M-x") 'helm-M-x)
+  (global-set-key (kbd "C-x C-f") 'helm-find-files))
 
 
 
