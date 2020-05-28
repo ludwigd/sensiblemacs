@@ -46,7 +46,7 @@
 
   ;; Indent mode
   (unless sensiblemacs-use-tabs
-    (setq-default indent-tabe-mode nil))
+    (setq-default indent-tabs-mode nil))
 
   ;; Tab width
   (setq-default default-tab-width sensiblemacs-tab-width)
