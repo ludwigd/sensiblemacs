@@ -63,7 +63,13 @@
   ;; Helm
   (if sensiblemacs-use-helm
       (progn
-	(helm-mode 1)
-	(sensiblemacs-enable-helm-keybindings)))
+        (helm-mode 1)
+        (sensiblemacs-enable-helm-keybindings)))
+
+  ;; Projectile
+  (if sensiblemacs-use-projectile
+      (progn
+        (projectile-mode 1)
+        (sensiblemacs-enable-projectile-keybindings)))
   
   )

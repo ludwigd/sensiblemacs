@@ -1,3 +1,8 @@
+(defcustom sensiblemacs-use-projectile t
+  "Non-nil will enable projectile"
+  :type 'boolean
+  :group 'sensiblemacs)
+
 (defcustom sensiblemacs-use-helm t
   "Non-nil will enable helm"
   :type 'boolean
