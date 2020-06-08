@@ -14,7 +14,8 @@
     magit
     neotree
     spacemacs-theme
-    projectile)
+    projectile
+    helm-projectile)
   "A list of packages to ensure are installed at launch.")
 
 (defun sensiblemacs-packages-installed-p ()

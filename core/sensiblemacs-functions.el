@@ -70,6 +70,8 @@
   (if sensiblemacs-use-projectile
       (progn
         (projectile-mode 1)
+        (if sensiblemacs-use-helm
+            (helm-projectile-on))
         (sensiblemacs-enable-projectile-keybindings)))
   
   )
