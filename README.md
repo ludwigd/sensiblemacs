@@ -1,5 +1,5 @@
 # sensiblemacs
-An emacs configuration that makes sense. At least for me.
+An emacs configuration that makes sense. At least to me.
 
 ## Install
 
