@@ -35,7 +35,7 @@
   :type 'boolean
   :group 'sensiblemacs)
 
-(defcustom sensiblemacs-theme 'spacemacs-dark
+(defcustom sensiblemacs-theme 'doom-monokai-pro
   "The theme to load as default."
   :type 'string
   :group 'sensiblemacs)

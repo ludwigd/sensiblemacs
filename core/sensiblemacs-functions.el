@@ -19,7 +19,8 @@
 
   ;; Theme
   (if window-system
-      (load-theme sensiblemacs-theme t))
+      (if sensiblemacs-theme
+          (load-theme sensiblemacs-theme t)))
 
   ;; Startup screen
   (if sensiblemacs-hide-startup-screen

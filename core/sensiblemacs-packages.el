@@ -13,7 +13,7 @@
     htmlize
     magit
     neotree
-    spacemacs-theme
+    doom-themes
     projectile
     helm-projectile)
   "A list of packages to ensure are installed at launch.")
